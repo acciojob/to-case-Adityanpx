@@ -1,4 +1,7 @@
 function toCase(text) {
+	uText = text.toUpperCase();
+	lText  = text.toLowerCase();
+	return `${lText}-${uText}`
   // write your code here
 }
 
